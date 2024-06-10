@@ -1,0 +1,21 @@
+.slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    background: url('../../public/assets/Slide.jpg') no-repeat center center fixed;
+    background-size: cover;
+  }
+  
+  .slide h1 {
+    font-size: 2.5em;
+    color: #30caf1;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.4;
+    margin: 0;
+  }
+  

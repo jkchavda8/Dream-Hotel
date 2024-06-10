@@ -1,0 +1,15 @@
+.home-page {
+    min-height: 100vh; /* Ensure that the page takes at least the full viewport height */
+    position: relative; /* Set the position to relative to allow absolute positioning inside it */
+  }
+  
+  .content {
+    padding-bottom: 60px; /* Adjust this value to match the height of your footer */
+  }
+  
+  .footer {
+    position: absolute; /* Position the footer absolutely */
+    bottom: 0; /* Place the footer at the bottom of its container */
+    width: 100%; /* Make sure the footer spans the entire width */
+  }
+  

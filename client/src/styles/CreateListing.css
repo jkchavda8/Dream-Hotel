@@ -1,0 +1,174 @@
+/* Styles for the CreateListing component */
+.create-listing {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  h1, h2, h3, h4 {
+    color: #333;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+  }
+  
+  h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  hr {
+    border: 1px solid #ccc;
+    margin: 20px 0;
+  }
+  
+  .category-list, .type-list, .resource {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+  
+  .category, .type, .facility {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.3s ease;
+  }
+  
+  .category.selected, .type.selected, .facility.selected {
+    border-color: #ff5a5f;
+    background-color: #ffeef0;
+  }
+  
+  .category_icon, .type_icon, .facility_icon {
+    font-size: 2rem;
+    margin-bottom: 5px;
+  }
+  
+  .full, .half {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 15px;
+  }
+  
+  .full .location, .half .location {
+    flex: 1;
+  }
+  
+  .location p {
+    margin: 5px 0;
+  }
+  
+  .location input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .basics {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .basic {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .basic p {
+    margin-bottom: 5px;
+  }
+  
+  .basicCount {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .basicCount p {
+    margin: 0 10px;
+    font-size: 1.2rem;
+  }
+  
+  .photos_ {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .photo_ {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .photo_ img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .photo_ button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background: rgba(255, 255, 255, 0.7);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .icon {
+    font-size: 3rem;
+    color: #ccc;
+  }
+  
+  .description {
+    margin-bottom: 20px;
+  }
+  
+  .description p {
+    margin: 10px 0 5px;
+  }
+  
+  .description input, .description textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .description textarea {
+    height: 100px;
+    resize: none;
+  }
+  
+  .price {
+    display: inline-block;
+    width: calc(100% - 30px);
+  }
+  
+  span {
+    font-size: 1.2rem;
+  }
+  

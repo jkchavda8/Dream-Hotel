@@ -1,0 +1,104 @@
+/* ListingDetails.css */
+    
+    .listing-details {
+        flex-grow: 1; 
+        padding: 20px;
+    }
+
+.title h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.photos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.photos img {
+    width: calc(33.333% - 10px);
+    height: 280px;
+    border-radius: 5px;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.profile img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.booking {
+    margin-top: 20px;
+}
+
+.booking h2 {
+    margin-bottom: 10px;
+}
+
+.resource {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.facility {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.facility_icon {
+    font-size: 24px;
+}
+
+.date-range-calendar {
+    margin-top: 3px;
+}
+
+.date-range-calendar h2 {
+    margin-top: 3px;
+}
+
+.button {
+    margin-bottom: 160px;
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+.footer {
+    background-color: #f8f8f8;
+    padding: 15px 0;
+    border-top: 1px solid #e7e7e7;
+}

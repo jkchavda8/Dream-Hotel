@@ -1,0 +1,47 @@
+/* App.css or WishList.css */
+
+.title-list {
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 20px;
+    color: #333;
+  }
+  
+  .list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .list .listing-card {
+    width: 100%;
+    max-width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .list .listing-card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .list .listing-card .details {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .list .listing-card .details h2 {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+    color: #555;
+  }
+  
+  .list .listing-card .details p {
+    margin: 5px 0;
+    color: #777;
+  }
+  

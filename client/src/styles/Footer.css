@@ -1,0 +1,106 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content {
+  flex: 1;
+}
+
+.footer {
+  background-color: #f8f8f8;
+  padding: 15px 0;
+  border-top: 1px solid #e7e7e7;
+  margin-top: auto; /* This will push the footer to the bottom */
+}
+
+.footer_container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer_section {
+  flex: 1;
+  min-width: 200px;
+}
+
+.footer_section h3 {
+  font-size: 18px;
+  margin-bottom: 4px;
+  color: #333;
+}
+
+.footer_section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer_section ul li {
+  margin-bottom: 5px;
+}
+
+.footer_section ul li a {
+  text-decoration: none;
+  color: #666;
+  transition: color 0.3s;
+}
+
+.footer_section ul li a:hover {
+  color: #333;
+}
+
+.footer_section p {
+  color: #666;
+  margin: 5px 0;
+}
+
+.footer_social {
+  display: flex;
+  gap: 20px;
+}
+
+.footer_social a img {
+  width: 32px;
+  height: 32px;
+  transition: transform 0.3s;
+}
+
+.footer_social a img:hover {
+  transform: scale(1.1);
+}
+
+.footer_form button {
+  border: none;
+  background-color: #333;
+  color: #fff;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.footer_form button:hover {
+  background-color: #555;
+}
+
+.footer_bottom {
+  text-align: center;
+  padding: 5px;
+  background-color: #f1f1f1;
+  border-top: 1px solid #e7e7e7;
+}
+
+.footer_bottom p {
+  margin: 0;
+  color: #666;
+}
